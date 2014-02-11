@@ -1,0 +1,14 @@
+alias ls="ls --color"
+
+BLUE="\[\033[1;34m\]"
+GREEN="\[\033[1;32m\]"
+RED="\[\033[1;31m\]"
+RESET="\[\033[00m\]"
+
+PS1="${BLUE}[${GREEN}\u@\h:\w${BLUE}]${RED}\$${RESET} "
+
+export LINODE_API_KEY=vtHv8SbSbBg5yfUZAA1SYs8I8qJT5NIqSjW63wcuu2VYNDOJowz6rm006wS7WLZl
+export AWS_ACCESS_KEY_ID=AKIAI6O6RLJ2AHM77CPQ
+export AWS_SECRET_ACCESS_KEY=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
+
+export PATH=$PATH:~/bin
